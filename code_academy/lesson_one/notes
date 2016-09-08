@@ -1,3 +1,6 @@
 <body ng-app="myApp">
 ng-app = a directive: defines the scope of the application
 
+var app = angular.module("myApp", []);
+define a new module
+
