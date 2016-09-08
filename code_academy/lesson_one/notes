@@ -1,0 +1,3 @@
+<body ng-app="myApp">
+ng-app = a directive: defines the scope of the application
+
