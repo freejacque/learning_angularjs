@@ -7,3 +7,6 @@ var app = angular.module("myApp", []);
 app.controller('MainController', ['$scope', function($scope) {
   $scope.title = 'Top Sellers in Books';}]);
   created a new controller to manage the app's data
+
+<div class="main" ng-controller="MainController">
+  ng-controller = directive: defines the scope of the controller
