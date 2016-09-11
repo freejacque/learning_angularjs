@@ -11,3 +11,6 @@ app.controller('MainController', ['$scope', function($scope) {
 <div class="main" ng-controller="MainController">
   ng-controller = directive: defines the scope of the controller
   properties attached to $scope can be used inside main (the controller scope)
+
+{{ title }}
+  an expression: used to display values on a page
