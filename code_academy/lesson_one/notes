@@ -14,3 +14,8 @@ app.controller('MainController', ['$scope', function($scope) {
 
 {{ title }}
   an expression: used to display values on a page
+
+  Workflow:
+  1. create a module, use ng-app in the view to define the application scope
+  2. create a controller, use ng-controller in the view to define the controller scope
+  3. add data to $scope in the controller, so the values cab be displayed with expressions
