@@ -3,6 +3,7 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.promo = 'promo text';
   $scope.product =  {
                       name: 'The Books of Trees',
-                      price: 19
-                    }
+                      price: 19,
+                      pubdate: new Date('2014', '03', '08')
+                    };
 }]);
