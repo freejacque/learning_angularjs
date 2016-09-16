@@ -26,3 +26,4 @@ app.controller('MainController', ['$scope', function($scope) {
   - known as a filter: formats the value of an expression
 
   ng-repeat: a directive that loops through an array & displays each element
+  ng-src: sets img src to a property in the controller
