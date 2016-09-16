@@ -24,3 +24,5 @@ app.controller('MainController', ['$scope', function($scope) {
 {{ product.price | currency }}
   The pipe symbol (|) takes the output on the left and "pipes" it to the right.
   - known as a filter: formats the value of an expression
+
+  ng-repeat: a directive that loops through an array & displays each element
