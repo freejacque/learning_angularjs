@@ -30,5 +30,8 @@ app.controller('MainController', ['$scope', function($scope) {
                         cover: 'http://melissastacy.com/wp-content/uploads/2014/08/Good-Cover.jpg',
                         likes: 0
                       }
-                    ]
+                    ];
+  $scope.plusOne = function(index) {
+    $scope.products[index].likes += 1;
+  };
 }]);
