@@ -38,4 +38,7 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.plusOne = function(index) {
     $scope.products[index].likes += 1;
   };
+  $scope.minusOne = function(index) {
+    $scope.products[index].dislikes += 1;
+  };
 }]);
