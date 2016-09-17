@@ -27,5 +27,6 @@ app.controller('MainController', ['$scope', function($scope) {
 
   ng-repeat: a directive that loops through an array & displays each element
   ng-src: sets img src to a property in the controller
+  ng-click: used to run click event functions
 
   directives bind behavior to html elements
