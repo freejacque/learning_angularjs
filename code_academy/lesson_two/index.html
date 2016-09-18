@@ -6,6 +6,7 @@
 
     <!-- Include the AngularJS library -->
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+
   </head>
   <body ng-app="AppMarketApp">
     <div class="header">
@@ -17,10 +18,7 @@
     <div class="main" ng-controller="MainController">
       <div class="container">
          <div class="card">
-          <img class="icon" ng-src="{{ move.icon }}">
-          <h2 class="title">{{ move.title }}</h2>
-          <p class="developer">{{ move.developer }}</p>
-          <p class="price">{{ move.price | currency }}</p>
+          <app-info info="move"></app-info>
         </div>
 
         <div class="card">
@@ -45,8 +43,9 @@
     <!-- Controllers -->
     <script src="js/controllers/MainController.js"></script>
 
-    <!-- Directives -->
 
+    <!-- Directives -->
+<script src="js/directives/appInfo.js"></script>
 
   </body>
 </html>
