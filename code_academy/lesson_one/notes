@@ -30,3 +30,5 @@ app.controller('MainController', ['$scope', function($scope) {
   ng-click: used to run click event functions
 
   directives bind behavior to html elements
+
+  - functions in the controller update the state of the data
