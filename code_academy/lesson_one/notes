@@ -32,3 +32,4 @@ app.controller('MainController', ['$scope', function($scope) {
   directives bind behavior to html elements
 
   - functions in the controller update the state of the data
+  - the view automatically changes and displays updated data, the page doesn't need to reload
