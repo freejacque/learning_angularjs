@@ -1,0 +1,22 @@
+app.directive('appInfo', function() {
+  return{
+    restrict: 'E',
+    scope: {
+      info: '='
+    },
+    templateUrl: 'js/directives/appInfo.html'
+  };
+});
+
+what this does:
+1. create a new directive called appInfo
+2. restrict:
+    - specifies how directive is used in the view
+    - E, used as a new html element
+3. scope:
+    - the attribute used to pass info into the directive
+    - =, look for an attribute named info in <app-info>
+      ex. <app-info info="shutterbugg"></app-info>
+4. templateUrl:
+    - the data is used in a template found at the templateUrl
+
