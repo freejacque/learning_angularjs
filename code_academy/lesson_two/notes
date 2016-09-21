@@ -20,3 +20,8 @@ what this does:
 4. templateUrl:
     - the data is used in a template found at the templateUrl
 
+ex. of ng-repeat
+  <div ng-repeat="product in products">
+    <img ng-src="{{ product.cover }}">
+    <p class="title">{{ product.name }}</p>
+  </div>
