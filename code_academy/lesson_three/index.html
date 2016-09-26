@@ -21,12 +21,12 @@
 
                 <!-- datetime -->
                 <div class="weekday col-xs-4">
-                  {{ fiveDay.datetime }}
+                  {{ day.datetime | date }}
                 </div>
 
 
                 <!-- icon -->
-                <div class="weather col-xs-3" ng-src="{{ fiveDay.icon }}">
+                <div class="weather col-xs-3" ng-src="{{ day.icon }}">
 
                 </div>
 
@@ -35,13 +35,13 @@
 
                 <!-- high -->
                 <div class="high col-xs-2">
-                  {{ fiveDay.high }}
+                  {{ day.high }}
                 </div>
 
 
                 <!-- low -->
                 <div class="low col-xs-2">
-                  {{ fiveDay.low }}
+                  {{ day.low }}
                 </div>
               </div>
             </div>
