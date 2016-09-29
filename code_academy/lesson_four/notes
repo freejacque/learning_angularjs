@@ -1,1 +1,3 @@
 $routeProvider - defines an Angular app's routes
+
+use .when() to determine routes
