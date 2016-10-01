@@ -3,8 +3,8 @@
     <img ng-src="{{ detail.url }}">
     <h2 class="photo-title">{{detail.title }}</h2>
     <p class="photo-author">{{ detail.author }} </p>
-    <p class="photo-views">{{ detail.views }} </p>
-    <p class="photo-upvotes">{{ detail.upvotes }}</p>
+    <p class="photo-views">{{ detail.views | number }} </p>
+    <p class="photo-upvotes">{{ detail.upvotes | number }}</p>
     <p class="photo-pubdate">{{ detail.pubdate}} </p>
   </div>
 </div>
